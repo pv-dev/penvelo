@@ -32,12 +32,20 @@ gem 'jquery-rails'
 
 group :development, :test do
   gem 'pry'
+  gem 'factory_girl_rails'
   gem 'cucumber-rails'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'launchy'
   gem 'database_cleaner'
   gem 'jasmine'
   gem 'sqlite3'
+  
+  #   gem 'rb-fsevent', :require => false if RUBY_PLATFORM =~ /darwin/i   # Mac OS X only
+  #   gem 'guard-rspec'
+  #   gem 'guard-livereload'
+  #   gem 'spork'
+  #   gem 'guard-spork'
 end
 
 group :test do
